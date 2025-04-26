@@ -56,7 +56,7 @@ Python 3 yüklü olmalıdır.
 Terminal veya komut satırında aşağıdaki komutu çalıştırabilirsiniz:
 
 ```bash
-python üretim_planlama.py
+python UretimPlanlama.py
 ```
 
 ---
