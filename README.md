@@ -52,7 +52,6 @@ Burada:
 
 ## ▶️ Projeyi Çalıştırmak İçin
 
-Python 3 yüklü olmalıdır.  
 Terminal veya komut satırında aşağıdaki komutu çalıştırabilirsiniz:
 
 ```bash
@@ -105,16 +104,10 @@ Makine 1 -> Makine 2 (Maliyet: 6)
 
 ---
 
-## 🎥 Demo Videosu
-
-(Kendi anlatımınızla hazırlayacağınız proje videosunu buraya ekleyiniz.)
-
----
 
 ## 📎 Notlar
 
 - Bu proje, "Dinamik Programlama Yaklaşımı ile Üretim Planlama" ödevi kapsamında hazırlanmıştır.
 - Python programlama dili kullanılmıştır.
-- Video anlatımı zorunludur. (Şu an video henüz eklenmemiştir.)
 
 ---
