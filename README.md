@@ -1,57 +1,41 @@
-📦 Üretim Planlama - Dinamik Programlama Yaklaşımı
+# 📦 Dinamik Programlama ile Üretim Planlama
 
-📋 Problem Tanımı
+Bu projede, bir üretim hattındaki işlerin farklı makinelerde minimum süre ve maliyetle tamamlanması amaçlanmıştır.
 
-Bir üretim hattında n adet iş ve m adet makine bulunmaktadır.
-Her işin, her makinede farklı bir işlem süresi vardır.
-Makineler arası geçişlerde geçiş maliyetleri oluşmaktadır.
-Amaç: İşleri sırayla tamamlamak için minimum toplam süreyi ve minimum geçiş maliyetini bulmaktır.
-🔧 Kullanılan Yöntem
+---
 
-Dinamik Programlama yaklaşımı kullanılmıştır.
-İşler adım adım değerlendirilerek, her adımda en iyi seçim yapılmıştır.
-Tablolama yöntemi ile daha önce bulunan sonuçlar hafızada tutulmuş ve tekrar hesaplama yapılmamıştır.
-📈 Zaman ve Uzay Karmaşıklığı
+## 📚 Problem Tanımı
 
-Zaman Karmaşıklığı: O(n × m²)
-Uzay Karmaşıklığı: O(n × m)
-⚙️ Programın Çalışma Adımları
+- n adet iş ve m adet makine vardır.
+- Her işin her makinede farklı işlem süresi vardır.
+- Makineler arasında geçiş maliyetleri bulunmaktadır.
+- Amaç, işleri sırayla tamamlamak için **minimum toplam süreyi** bulmaktır.
 
-Kullanıcıdan iş ve makine sayısı alınır.
-Her iş için her makinedeki işlem süreleri girilir.
-Makineler arası geçiş maliyetleri girilir.
-Dinamik programlama tablosu oluşturulur:
-Her iş için her makineye ulaşmanın en az maliyetli yolu bulunur.
-Minimum toplam süre ve makineler sırası belirlenir.
-Sonuçlar kullanıcıya gösterilir:
-Minimum süre
-Hangi işi hangi makinede yapılacağı
-Geçişlerin maliyetleri
-▶️ Çalıştırmak İçin
+---
 
-Bilgisayarınızda Python 3 kurulu olmalıdır.
+## ⚙️ Kullanılan Yöntem
 
-Terminal veya Komut Satırı açılarak şu komutla çalıştırılır:
+- **Dinamik Programlama** yaklaşımı kullanılmıştır.
+- Her iş için en iyi makine seçimi yapılmıştır.
+- Geçiş maliyetleri dikkate alınarak toplam süre hesaplanmıştır.
 
+**Zaman Karmaşıklığı:** O(n × m²)  
+**Uzay Karmaşıklığı:** O(n × m)
+
+---
+
+## 🧩 Kodun Özeti
+
+- Kullanıcıdan işlem süreleri ve geçiş maliyetleri alınır.
+- Dinamik programlama tablosu oluşturulur.
+- Minimum süre ve en uygun makine sırası bulunur.
+- Sonuçlar ekrana açıklayıcı şekilde yazdırılır.
+
+---
+
+## 🚀 Çalıştırmak İçin
+
+Python 3 yüklü olması gereklidir. Çalıştırmak için terminal veya komut satırına şunu yazın:
+
+```bash
 python üretim_planlama.py
-🧪 Test Sonuçları
-
-Örnek bir çalıştırmada:
-
-3 iş ve 2 makine için verilen işlem süreleri ve geçiş maliyetlerine göre;
-Program en kısa toplam süreyi ve işlerin makine sıralamasını başarılı bir şekilde bulmuştur.
-📽️ Video İçeriği Hakkında
-
-Videoda:
-
-Problem tanımı,
-Kullanılan çözüm yöntemi,
-Kod yapısının adım adım anlatılması,
-Bir örnek çalıştırma ve sonuçların açıklanması, gerekmektedir.
-✅ "Şunu yaptım, bunu kullandım" gibi yüzeysel anlatımlar değil; teknik açıklamalar beklenmektedir.
-
-📚 Notlar
-
-Bu proje bireysel çalışma amacıyla yapılmıştır.
-Kodlar sade ve anlaşılır yazılmıştır.
-Ekstra kütüphane veya ileri seviye modül kullanılmamıştır.
