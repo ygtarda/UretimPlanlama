@@ -38,4 +38,4 @@ Bu projede, bir üretim hattındaki işlerin farklı makinelerde minimum süre v
 Python 3 yüklü olması gereklidir. Çalıştırmak için terminal veya komut satırına şunu yazın:
 
 ```bash
-python üretim_planlama.py
+python UretimPlanlama.py
